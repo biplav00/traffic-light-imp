@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.main {
+  background-image: url("./Assets/background-img.jpg");
+  width: 100vw;
+  height: 600px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+#car {
+  height: 111px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#stop-marker {
+  height: 0.5px;
+  width: 5px;
+  background-color: aliceblue;
+  position: absolute;
+  bottom: 0;
+  right: 270px;
+}
+
+.traffic-stand {
+  height: 230px;
+  width: 7px;
+  background-color: black;
+  position: absolute;
+  right: 212px;
+  bottom: 0px;
+}
+
+.traffic-light {
+  background-color: black;
+  height: 80px;
+  width: 30px;
+  border-radius: 23px;
+  position: absolute;
+  right: 200px;
+  bottom: 145px;
+}
+
+.light {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.green {
+  background-color: #00b800;
+}
